@@ -25,11 +25,6 @@ winget install openjs.nodejs.lts; `
 winget install microsoft.visualstudiocode
 ```
 
-### pacman
-```bash
-sudo pacman -Sy git github-cli nodejs-lts-gallium code
-```
-
 ## Install angular cli globally (choose newest LTS)
 ```bash
 npm i -g @angular/cli@14.2.10
@@ -39,7 +34,8 @@ npm i -g @angular/cli@14.2.10
 ```bash
 git config --global user.email '[email]' \
 && git config --global user.name '[name]' \
-&& git config --global init.defaultBranch 'prod'
+&& git config --global init.defaultBranch 'prod' \
+&& git config --global push.autoSetupRemote true
 ```
 
 ## Log in to GitHub CLI and follow the prompts
@@ -49,5 +45,5 @@ gh auth login
 
 ## Log in to npm and follow the prompts
 ```bash
-npm adduser
+npm login
 ```
