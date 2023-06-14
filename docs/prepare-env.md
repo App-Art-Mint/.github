@@ -1,4 +1,4 @@
-# Sunder Apps Environment Setup
+# App Art Mint Environment Setup
 ## Prepare Environment
 ### macOS X+ - install Homebrew
 ```bash
@@ -11,6 +11,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
 ## Install dependencies
+(NOTE: Replace Node with nvm)
 ### homebrew
 ```bash
 brew install git gh node \
@@ -25,9 +26,11 @@ winget install openjs.nodejs.lts; `
 winget install microsoft.visualstudiocode
 ```
 
-## Install angular cli globally (choose newest LTS)
+## Install angular and cordova cli globally
+NOTE: On MacOS and Linux, you may need to run this command with sudo
+
 ```bash
-npm i -g @angular/cli@14.2.10
+npm i -g @angular/cli@latest cordova@latest
 ```
 
 ## Set your git config
@@ -35,7 +38,8 @@ npm i -g @angular/cli@14.2.10
 git config --global user.email '[email]' \
 && git config --global user.name '[name]' \
 && git config --global init.defaultBranch 'prod' \
-&& git config --global push.autoSetupRemote true
+&& git config --global push.autoSetupRemote true \
+&& git config --global pull.rebase true
 ```
 
 ## Log in to GitHub CLI and follow the prompts

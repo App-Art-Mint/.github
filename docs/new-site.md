@@ -1,25 +1,28 @@
-# Sunder Apps New Website Process
+# App Art Mint New App Process
 ## Before you begin
- - Configure your environment
+ - [Configure your environment](https://github.com/App-Art-Mint/.github/blob/prod/docs/prepare-env.md)
 
-## Enter your projects directory
+### Enter your projects directory
 ```bash
 cd [path/to/code]
 ```
 
-## Create a new angular project with routing and scss:
+### Clone the workspace
 ```bash
-ng new [project] --routing true --style scss
+gh repo clone App-Art-Mint/ngx-projects && cd ngx-projects && npm i
 ```
 
-## Enter the repo
+## Creating a new project
+Run the following commands from the root of the workspace or in the projects folder.
+
+### Apps
 ```bash
-cd [project]
+ng g application [project] --routing true --style scss && cd [project] && gh repo create App-Art-Mint/[project] --private --source=. --remote=upstream && git push && npm i
 ```
 
-## Create a GitHub repo
+### Libraries
 ```bash
-gh repo create Sunder-Apps/[project] --private --source=. --remote=upstream
+ng g library [project] && cd [project] && gh repo create App-Art-Mint/ngx-[project] --public --source=. --remote=upstream && git push && npm i
 ```
 
 # Next steps:

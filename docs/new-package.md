@@ -1,5 +1,8 @@
-# Sunder Apps New Package Process
-## Enter your projects directory
+# App Art Mint New Package Process
+## Before you begin
+ - [Configure your environment](https://github.com/App-Art-Mint/.github/blob/prod/docs/prepare-env.md)
+
+### Enter your projects directory
 ```bash
 cd [path/to/code]
 ```
