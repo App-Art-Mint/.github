@@ -17,12 +17,8 @@ Run the following commands from the root of the workspace or in the projects fol
 
 ### Apps
 ```bash
-ng g application [project] --routing true --style scss && cd [project] && gh repo create App-Art-Mint/[project] --private --source=. --remote=upstream && git push && npm i
+ng new [project] --routing true --style scss && cd [project] && gh repo create App-Art-Mint/[project] --private --source=. && git push && npm i
 ```
 
-### Libraries
-```bash
-ng g library [project] && cd [project] && gh repo create App-Art-Mint/ngx-[project] --public --source=. --remote=upstream && git push && npm i
-```
 
 # Next steps:
