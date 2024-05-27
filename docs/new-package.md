@@ -9,7 +9,7 @@ cd [path/to/code]
 
 ## Create a GitHub repo (still need to make template and test this)
 ```bash
-gh repo create Sunder-Apps/[project] -d '[description]' -p Sunder-Apps/template --public --clone
+gh repo create App-Art-Mint/[project] -d '[description]' -p App-Art-Mint/template --public --clone
 ```
 
 ## Enter the repo and install dependencies

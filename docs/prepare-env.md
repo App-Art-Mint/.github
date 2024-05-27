@@ -30,7 +30,7 @@ winget install microsoft.visualstudiocode
 NOTE: On MacOS and Linux, you may need to run this command with sudo
 
 ```bash
-npm i -g @angular/cli@latest cordova@latest
+npm i -g @angular/cli@latest cordova@latest @aws-amplify/cli@latest
 ```
 
 ## Set your git config
