@@ -14,19 +14,25 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 (NOTE: Replace Node with nvm)
 ### homebrew
 ```bash
-brew install git gh node \
+brew install git gh nvm \
 && brew install --cask visual-studio-code
 ```
 
 ### winget
+(NOTE: If you don't have winget, install Package Installer from the Microsoft Store and reboot)
 ```powershell
 winget install git.git; `
 winget install github.cli; `
-winget install openjs.nodejs.lts; `
+winget install coreybutler.nvmforwindows; `
 winget install microsoft.visualstudiocode
 ```
 
-## Install angular and cordova cli globally
+## Install Node
+```bash
+nvm install lts
+```
+
+## Install global CLI tools
 NOTE: On MacOS and Linux, you may need to run this command with sudo
 
 ```bash
@@ -38,8 +44,7 @@ npm i -g @angular/cli@latest cordova@latest @aws-amplify/cli@latest
 git config --global user.email '[email]' \
 && git config --global user.name '[name]' \
 && git config --global init.defaultBranch 'prod' \
-&& git config --global push.autoSetupRemote true \
-&& git config --global pull.rebase true
+&& git config --global push.autoSetupRemote true
 ```
 
 ## Log in to GitHub CLI and follow the prompts
@@ -50,4 +55,9 @@ gh auth login
 ## Log in to npm and follow the prompts
 ```bash
 npm login
+```
+
+## Log in to AWS Amplify and follow the prompts
+```bash
+amplify configure
 ```

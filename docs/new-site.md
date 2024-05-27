@@ -13,4 +13,5 @@ Run the following commands from the root of the workspace or in the projects fol
 ### Apps
 ```bash
 ng new [project] --routing true --style scss && cd [project] && gh repo create App-Art-Mint/[project] --private --source=. && git push && npm i
+ng new [project] --routing true --style scss && cd [project] && gh repo create App-Art-Mint/[project] --private --source=. && git push && npm i
 ```
