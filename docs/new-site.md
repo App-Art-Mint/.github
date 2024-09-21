@@ -49,7 +49,11 @@ npm create amplify@latest
 
 ### Install dependencies
 ```bash
-npm i @appartmint/mint @appartmint/util @aws-amplify/ui-angular "@awesome.me/kit-c0365045dc" photoswipe swiper
+npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular "@awesome.me/kit-c0365045dc" photoswipe swiper tinify
+```
+
+```bash
+npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda
 ```
 
 ### Configure Amplify
