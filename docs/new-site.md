@@ -31,7 +31,7 @@ npm create amplify@latest
 ```
 
 ### Copy .npmrc and polyfills
-### Copy amplify.yml (update out dir)
+### Copy amplify.yml
 ### Update package.json scripts
 ### Update .editorconfig
 ### Update tsconfig with paths && noPropertyAccessFromIndexSignature
