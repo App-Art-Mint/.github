@@ -14,7 +14,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 (NOTE: Replace Node with nvm)
 ### homebrew
 ```bash
-brew install git gh nvm \
+brew install git gh nvm awscli \
 && brew install --cask visual-studio-code
 ```
 
@@ -24,19 +24,21 @@ brew install git gh nvm \
 winget install git.git; `
 winget install github.cli; `
 winget install coreybutler.nvmforwindows; `
+winget install amazon.awscli; `
 winget install microsoft.visualstudiocode
 ```
 
 ## Install Node
 ```bash
-nvm install lts
+nvm install 20.18.0
+nvm use 20.18.0
 ```
 
 ## Install global CLI tools
 NOTE: On MacOS and Linux, you may need to run this command with sudo
 
 ```bash
-npm i -g @angular/cli@latest cordova@latest @aws-amplify/cli@latest
+npm i -g @angular/cli cordova aws-cdk
 ```
 
 ## Set your git config
@@ -57,7 +59,15 @@ gh auth login
 npm login
 ```
 
-## Log in to AWS Amplify and follow the prompts
+## Set up SSO for AWS CLI
+Follow the prompts to set up SSO for your profile.
+(First Prompt:) Set a unique SSO session name.
+(Final Prompt:) Ensure that the profile name matches the profile name in the package.json of the project you are working on.
 ```bash
-amplify configure
+aws configure sso
+```
+
+## Sign in to AWS CLI as needed
+```bash
+aws sso login --profile [profile-name]
 ```
