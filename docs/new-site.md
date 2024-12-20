@@ -30,8 +30,10 @@ gh repo create App-Art-Mint/[project] --private --source=. && git push
 npm create amplify@latest
 ```
 
-### Copy .npmrc and polyfills
-### Copy amplify.yml
+### Copy .npmrc and amplify.yml
+### Copy polyfills
+### Copy environment.ts
+### Copy tinify script
 ### Update package.json scripts
 ### Update .editorconfig
 ### Update tsconfig with paths && noPropertyAccessFromIndexSignature
@@ -49,15 +51,15 @@ npm create amplify@latest
 
 ### Install dependencies
 ```bash
-npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular "@awesome.me/kit-c0365045dc" photoswipe swiper tinify
+npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size
 ```
 
 ```bash
-npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda
+npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all
 ```
 
 ### Configure Amplify
 #### Set secrets (add to sandbox too)
-#### Set Node 20.13.1
+#### Set Node 20.18.1
 #### Create dev branch
 #### Configure previews
