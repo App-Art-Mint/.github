@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"name": ".github",
+			"path": ".."
+		},
+		{
+			"name": "app-art-mint",
+			"path": "../../app-art-mint"
+		},
+		{
+			"name": "death-comes-lifting",
+			"path": "../../death-comes-lifting"
+		},
+		{
+			"name": "npm-mint",
+			"path": "../../npm-mint"
+		},
+		{
+			"name": "nuxt-app-art-mint",
+			"path": "../../nuxt-app-art-mint"
+		},
+		{
+			"name": "nuxt-chatbot",
+			"path": "../../nuxt-chatbot"
+		},
+		{
+			"name": "nuxt-mint",
+			"path": "../../nuxt-mint"
+		},
+		{
+			"name": "vue-mint",
+			"path": "../../vue-mint"
+		}
+	],
+	"settings": {}
+}
