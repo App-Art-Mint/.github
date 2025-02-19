@@ -55,11 +55,22 @@ npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angula
 ```
 
 ```bash
-npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all
+npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all2 cross-replace
 ```
 
 ### Configure Amplify
 #### Set secrets (add to sandbox too)
-#### Set Node 20.18.1
+#### Set Node 20 LTS
 #### Create dev branch
 #### Configure previews
+
+
+
+
+## Configure backend separately
+```bash
+npm i @dotenvx/dotenvx
+```
+
+
+

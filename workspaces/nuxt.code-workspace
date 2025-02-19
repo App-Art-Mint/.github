@@ -29,7 +29,22 @@
 			"path": "../../nuxt-mint"
 		},
 		{
-			"name": "vue-mint",
+			"name": "amp-app-art-mint",
+			"path": "../../amp-app-art-mint"
+		},
+		{
+			"name": "amp-mint",
+			"path": "../../amp-mint"
+		},
+		{
+			"name": "gpt-chatbot",
+			"path": "../../gpt-chatbot"
+		},
+		{
+			"name": "amp-mint-chatbot",
+			"path": "../../amp-mint-chatbot"
+		},
+		{
 			"path": "../../vue-mint"
 		}
 	],
