@@ -74,3 +74,21 @@ npm i @dotenvx/dotenvx
 
 
 
+npm r npm-run-all
+npm i -D npm-run-all2
+
+replace npm-run-all with run-s
+delete upgrade scripts
+v19
+
+.npmrc
+
+npm run update
+npm run login
+npm run use:sandbox
+npm run gen:graphql
+
+npm run serve
+
+
+.env
