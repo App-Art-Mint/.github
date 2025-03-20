@@ -12,7 +12,7 @@ Run the following commands from the root of the workspace or in the projects fol
 
 ### Create an Angular application
 ```bash
-ng new [project] --routing true --style scss --no-standalone --ssr false
+ng new [project] --routing true --style scss --ssr false
 ```
 
 ### Enter the app's directory
@@ -30,14 +30,13 @@ gh repo create App-Art-Mint/[project] --private --source=. && git push
 npm create amplify@latest
 ```
 
-### Copy .npmrc and amplify.yml
+### Copy .npmrc, amplify.yml, .env
 ### Copy polyfills
 ### Copy environment.ts
 ### Copy tinify script
 ### Update package.json scripts
 ### Update .editorconfig
 ### Update tsconfig with paths && noPropertyAccessFromIndexSignature
-### Update tsconfig.app with mint
 ### Add global styles
 ### Angular Updates
 #### Styles
@@ -51,12 +50,26 @@ npm create amplify@latest
 
 ### Install dependencies
 ```bash
-npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size
+npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size @dotenvx/dotenvx
 ```
 
 ```bash
 npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all2 cross-replace
 ```
+
+### Configure AWS Account
+- Create AWS Account in AWS Organizations
+- Move AWS Account to workloads folder in AWS Organizations
+- In IAM Identity Center, assign admin access to the user
+- Configure SSO
+```bash
+aws configure sso
+```
+- First name: [user]-[host]-[account]
+e.g. sunder-sbox-app-art-mint
+- Profile name: [account]
+e.g. app-art-mint
+
 
 ### Configure Amplify
 #### Set secrets (add to sandbox too)
