@@ -60,11 +60,11 @@ npm create amplify@latest
 
 ### Install dependencies
 ```bash
-npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size @dotenvx/dotenvx
+npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size
 ```
 
 ```bash
-npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all2 cross-replace
+npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all2 cross-replace @dotenvx/dotenvx
 ```
 
 ### Configure AWS Account
