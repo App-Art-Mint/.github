@@ -35,21 +35,26 @@ gh repo create App-Art-Mint/[project] --private --source=. && git push
 npm create amplify@latest
 ```
 
-### Copy .npmrc, amplify.yml, .env
-### Copy polyfills
-### Copy environment.ts
-### Copy tinify script
-### Update package.json scripts
-### Update .editorconfig
-### Update tsconfig with paths && noPropertyAccessFromIndexSignature
-### Add global styles
-### Angular Updates
-#### Styles
-#### Assets
-#### Output Path
-#### Preserve Symlinks
-#### Output Hashing
-#### Budgets
+### Configure Template
+
+#### Any project
+##### Copy .npmrc, amplify.yml, .env, tsconfig.json
+##### Update tsconfig with paths && noPropertyAccessFromIndexSignature
+##### Copy tinify script
+##### Update package.json scripts
+##### Add global styles
+
+#### Angular project
+##### Copy polyfills
+##### Copy environment.ts
+##### Update .editorconfig
+##### angular.json Updates
+###### Styles
+###### Assets
+###### Output Path
+###### Preserve Symlinks
+###### Output Hashing
+###### Budgets
 
 
 
