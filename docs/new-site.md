@@ -15,6 +15,11 @@ Run the following commands from the root of the workspace or in the projects fol
 ng new [project] --routing true --style scss --ssr false
 ```
 
+#### Create a Next application
+```bash
+npx create-next-app@latest [project] --ts --eslint --no-tailwind --app --src-dir --turbopack --import-alias
+```
+
 ### Enter the app's directory
 ```bash
 cd [project]
@@ -84,24 +89,3 @@ e.g. app-art-mint
 ```bash
 npm i @dotenvx/dotenvx
 ```
-
-
-
-npm r npm-run-all
-npm i -D npm-run-all2
-
-replace npm-run-all with run-s
-delete upgrade scripts
-v19
-
-.npmrc
-
-npm run update
-npm run login
-npm run use:sandbox
-npm run gen:graphql
-
-npm run serve
-
-
-.env
