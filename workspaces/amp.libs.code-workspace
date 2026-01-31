@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../libs/amp-mint"
+		},
+		{
+			"path": "../../libs/amp-storage"
+		},
+		{
+			"path": "../../libs/amp-tinify"
+		}
+	]
+}

@@ -17,7 +17,7 @@ ng new [project] --routing true --style scss --ssr false
 
 #### Create a Next application
 ```bash
-npx create-next-app@latest [project] --ts --eslint --no-tailwind --app --src-dir --turbopack --import-alias "@/*"
+npx create-next-app@latest [project] --ts --eslint --no-tailwind --app --src-dir --turbopack --import-alias "@/*" --react-compiler
 ```
 
 ### Enter the app's directory

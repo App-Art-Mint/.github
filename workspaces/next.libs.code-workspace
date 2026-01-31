@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../libs/npm-mint"
+		},
+		{
+			"path": "../../libs/css-mint"
+		},
+		{
+			"path": "../../libs/nex-mint"
+		},
+		{
+			"path": "../../libs/tsm-mint"
+		},
+		{
+			"path": "../../libs/tsx-mint"
+		},
+		{
+			"path": "../../libs/jsm-strudel"
+		}
+	],
+	"settings": {}
+}
