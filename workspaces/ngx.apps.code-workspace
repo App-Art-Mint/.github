@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "app-art-mint",
+			"path": "../../apps/app-art-mint"
+		},
+		{
+			"name": "dacierno",
+			"path": "../../apps/dacierno"
+		},
+		{
+			"name": "salon-m",
+			"path": "../../apps/salon-m"
+		},
+		{
+			"name": "lucas-rennie",
+			"path": "../../apps/lucas-rennie"
+		},
+		{
+			"name": "garefest",
+			"path": "../../apps/garefest"
+		},
+		{
+			"name": "brahctopus",
+			"path": "../../apps/brahctopus"
+		},
+		{
+			"name": "tilted-hat",
+			"path": "../../apps/tilted-hat"
+		},
+		{
+			"name": "death-comes-lifting",
+			"path": "../../apps/death-comes-lifting"
+		}
+	]
+}

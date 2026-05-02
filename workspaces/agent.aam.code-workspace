@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../apps/app-art-mint"
+		},
+		{
+			"path": "../../libs/npm-mint"
+		},
+		{
+			"path": "../../libs/tsx-mint"
+		},
+		{
+			"path": "../../libs/tsm-mint"
+		},
+		{
+			"path": "../../apps/death-comes-lifting"
+		},
+		{
+			"path": "../../libs/ngx-calendar"
+		}
+	],
+	"settings": {}
+}

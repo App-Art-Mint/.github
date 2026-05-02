@@ -59,12 +59,23 @@ npm create amplify@latest
 
 
 ### Install dependencies
+
+#### Any project
 ```bash
-npm i @appartmint/mint @appartmint/util @angular/material @aws-amplify/ui-angular photoswipe swiper tinify square papaparse pngjs probe-image-size
+npm i @appartmint/css-mint @appartmint/ts-mint photoswipe swiper tinify square papaparse pngjs probe-image-size
+```
+```bash
+npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size @types/grecaptcha npm-run-all2 cross-replace @dotenvx/dotenvx sass
 ```
 
+#### Angular project
 ```bash
-npm i -D @aws-sdk/client-cognito-identity-provider @types/aws-lambda madge @types/papaparse @types/pngjs @types/probe-image-size npm-run-all2 cross-replace @dotenvx/dotenvx
+npm i @angular/material @aws-amplify/ui-angular
+```
+
+#### Next project
+```bash
+npm i 
 ```
 
 ### Configure AWS Account
@@ -87,10 +98,3 @@ e.g. app-art-mint
 #### Create dev branch
 #### Configure previews
 
-
-
-
-## Configure backend separately
-```bash
-npm i @dotenvx/dotenvx
-```

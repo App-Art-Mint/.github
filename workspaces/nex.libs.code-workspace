@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../../libs/jsm-strudel"
+		},
+		{
+			"path": "../../libs/tsm-scripts"
 		}
 	],
 	"settings": {}
