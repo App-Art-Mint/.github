@@ -17,10 +17,6 @@
 			"path": "../../apps/lucas-rennie"
 		},
 		{
-			"name": "garefest",
-			"path": "../../apps/garefest"
-		},
-		{
 			"name": "brahctopus",
 			"path": "../../apps/brahctopus"
 		},
@@ -31,6 +27,10 @@
 		{
 			"name": "death-comes-lifting",
 			"path": "../../apps/death-comes-lifting"
+		},
+		{
+			"name": "garefest",
+			"path": "../../apps/garefest"
 		}
 	]
 }
